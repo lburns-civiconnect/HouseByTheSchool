@@ -1,0 +1,10 @@
+.RichText p {
+  line-height: 32px;
+  max-width: 1000px;
+}
+
+.RichText h1,
+.RichText h2,
+.RichText h3 {
+  font-family: "EB Garamond", serif !important;
+}
