@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "example_single_types",
+  "info": {
+    "singularName": "example-single-type",
+    "pluralName": "example-single-types",
+    "displayName": "Example Single Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exampleHeader": {
+      "type": "string"
+    },
+    "exampleBody": {
+      "type": "richtext"
+    },
+    "exampleAccordion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.accordion"
+    },
+    "exampleSlider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.slider"
+    }
+  }
+}

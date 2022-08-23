@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Accordion Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.accordion-item"
+    }
+  }
+}

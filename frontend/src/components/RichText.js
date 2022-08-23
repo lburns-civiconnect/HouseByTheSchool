@@ -1,3 +1,4 @@
+// Allows you to display rich text markdown coming from strapis collections
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";

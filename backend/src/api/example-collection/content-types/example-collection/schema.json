@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "example_collections",
+  "info": {
+    "singularName": "example-collection",
+    "pluralName": "example-collections",
+    "displayName": "Example Collection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "richText": {
+      "type": "richtext"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "boolean": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "list": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

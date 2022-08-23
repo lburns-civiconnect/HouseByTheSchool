@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_sliders",
+  "info": {
+    "displayName": "Slider",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.slide"
+    }
+  }
+}

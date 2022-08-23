@@ -1,0 +1,22 @@
+.Accordion {
+}
+.AccordionItem {
+  margin: 20px;
+}
+.AccordionHeader {
+  background-color: white;
+  cursor: pointer;
+  padding: 15px;
+}
+.AccordionHeader:hover {
+  background-color: whitesmoke;
+}
+.AccordionBody {
+  background-color: whitesmoke;
+  height: 0;
+  overflow: hidden;
+}
+.AccordionItem.active .AccordionBody {
+  height: auto;
+  padding: 15px;
+}
