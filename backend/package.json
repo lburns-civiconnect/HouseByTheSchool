@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "backend-2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,30 +9,23 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "strapi": "3.6.10",
-    "strapi-admin": "3.6.10",
-    "strapi-utils": "3.6.10",
-    "strapi-plugin-content-type-builder": "3.6.10",
-    "strapi-plugin-content-manager": "3.6.10",
-    "strapi-plugin-users-permissions": "3.6.10",
-    "strapi-plugin-email": "3.6.10",
-    "strapi-plugin-upload": "3.6.10",
-    "strapi-plugin-i18n": "3.6.10",
-    "strapi-connector-bookshelf": "3.6.10",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "@strapi/plugin-i18n": "4.3.4",
+    "@strapi/plugin-users-permissions": "4.3.4",
+    "@strapi/provider-email-sendgrid": "^4.3.4",
+    "@strapi/strapi": "4.3.4",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-ezforms": "^0.0.9"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a3e2de4a-fb17-4a71-bc61-d71eef77b3f8"
+    "uuid": "2d21fa50-5eb6-4e36-9f93-febd9fff4cbe"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
