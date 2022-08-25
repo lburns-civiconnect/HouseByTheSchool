@@ -4,6 +4,7 @@ import { v4 as uuid } from "uuid";
 import "../css/Accordion.css";
 
 const Accordion = ({ data }) => {
+  // console.log(data);
   if (!data) return null;
   return (
     <div className="Accordion">

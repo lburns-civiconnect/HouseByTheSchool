@@ -9,8 +9,8 @@ function Examples() {
   return (
     <Page>
       <h1>Examples Page</h1>
-      {/* <ExampleForm /> */}
-      {/* <ExampleDisplayCollection /> */}
+      <ExampleForm />
+      <ExampleDisplayCollection />
       <ExampleDisplaySingleType />
     </Page>
   );

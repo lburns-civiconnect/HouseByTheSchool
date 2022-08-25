@@ -11,6 +11,7 @@ function ExampleDisplaySingleType() {
   //   if our data hasnt loaded, we dont want to try to display it
   if (!displayData) return null;
   const { exampleHeader, exampleBody, exampleAccordion, exampleSlider } = displayData.attributes;
+  console.log(exampleAccordion);
   return (
     <div>
       <h2>An example for how to display database single types</h2>
@@ -18,8 +19,8 @@ function ExampleDisplaySingleType() {
       <div style={{ backgroundColor: "lightgrey", margin: 10, padding: 20 }}>
         <h1>{exampleHeader}</h1>
         <RichText text={exampleBody} />
-        {/* <Accordion data={exampleAccordion.items} /> */}
-        <Slider data={exampleSlider.items} />
+        {exampleAccordion && <Accordion data={exampleAccordion.items} />}
+        {exampleSlider && <Slider data={exampleSlider.items} />}
       </div>
     </div>
   );
